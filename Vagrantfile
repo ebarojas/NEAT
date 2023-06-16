@@ -17,7 +17,7 @@ VAGRANTFILE_API_VERSION = '2'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = 'debian/stretch64'
+  config.vm.box = 'generic/debian11'
   config.vm.box_check_update = true
 
   config.vm.define "neat"
@@ -40,7 +40,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   elsif OS.mac?
     puts "Vagrant launched from mac."
     config.vm.network 'private_network', ip: '192.168.50.4'
-    config.vm.synced_folder '.', '/vagrant', type: 'nfs'
+    config.vm.synced_folder '.', '/vagrant', type: 'nfs', nfs_udp:false 
   end
 
   # Provider-specific configuration so you can fine-tune various
