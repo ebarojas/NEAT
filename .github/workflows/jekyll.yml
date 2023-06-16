@@ -59,8 +59,9 @@ jobs:
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        path: ./neat.art/_site
         uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./neat.art/_site
 
   # Deployment job
   deploy:
