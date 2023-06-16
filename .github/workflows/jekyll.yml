@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
        
-       - name: Install Bundler
+      - name: Install Bundler
         run: gem install bundler
 
       - name: Install Dependencies
