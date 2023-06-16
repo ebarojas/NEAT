@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Indelible art on the Blockchain"
+title:  "Indelible art on the Bitcoin Blockchain"
 date:   2023-06-13 21:26:41 +0000
 # image: /assets/imgs/
 categories: contemporary art, satoshi, nakamoto
