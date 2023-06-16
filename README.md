@@ -19,7 +19,11 @@ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-And finally:
+And:
+
+```gem install bundler```
+
+Finally, inside of /neat.art run:
 
 ```bundle install```
 
