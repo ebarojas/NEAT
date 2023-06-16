@@ -46,8 +46,9 @@ jobs:
         # Outputs to the './_site' directory by default
         env:
           JEKYLL_ENV: production
-          BUNDLE_GEMFILE: "./neat.art/Gemfile"
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run:
+          cd ./neat.art
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
