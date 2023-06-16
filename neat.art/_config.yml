@@ -78,4 +78,5 @@ defaults:
   - scope:
       path: ""
     values:
+      layout: "default"
       # image: /assets/imgs/10247068594_d47b8a25c7_b.jpg # this defines a default image when no other is found
