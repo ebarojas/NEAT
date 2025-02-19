@@ -20,19 +20,16 @@
 
 title: NEAT
 author:
-  name: Us
+  name: Everardo J. Barojas
 tagline: New Experiments in Art Technology
 description: >- # this means to ignore newlines until "baseurl:"
-  ---
-url: "https://www.neat.art"
-# SEO Tag plugin specs
-twitter:
-  username: neat_art # TODO: Add social media links
-  card: summary_large_image
-social:
-  name: NEAT # TODO: Add social media links
-  links:
-    - https://twitter.com/neat_art
+  New Experiments in Art Technology
+url: "https://neat.art"
+# # SEO Tag plugin specs
+# social:
+#   name: NEAT # TODO: Add social media links
+#   links:
+#     - https://neat.art
 
 
 show_excerpts: false
@@ -48,9 +45,7 @@ remote_theme: jekyll/minima
 
 # Minima spcific settings
 minima:
-  skin: dark
-  social_links:
-    - { platform: twitter, user_url: "https:www.twitter.com/neat_art" } # TODO: Add social media links
+  skin: solarized
 
 # Exclude from processing.
 # The following items will not be processed, by default.

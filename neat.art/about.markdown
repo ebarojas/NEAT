@@ -1,13 +1,11 @@
 ---
 layout: page
-title: What is NEAT?
+title: About us
 permalink: /about/
 ---
 
-**Us in a sentence**
+**Paola J. Jasso:**
+Curator in chief. 20 years of experience in Contemporary Art.
 
-----
-
-**A bit more detail**
-
----
+**Dr. Everardo J Barojas:**
+Engineer. Designer. Architect.
