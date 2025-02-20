@@ -31,7 +31,6 @@ url: "https://neat.art"
 #   links:
 #     - https://github.com/ebarojas
 
-
 show_excerpts: false
 
 # Build settings
@@ -46,9 +45,6 @@ remote_theme: jekyll/minima
 # Minima spcific settings
 minima:
   skin: solarized
-  social_links:
-    - { platform: github,  user_url: "https://github.com/ebarojas" }
-    - { platform: climb.mx,  user_url: "https://www.climb.mx" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
